@@ -7,30 +7,6 @@
   background: var(--white);
 }
 
-.bg-stone-100 {
-  background: var(--stone-100);
-}
-
-.bg-stone-150 {
-  background: var(--stone-150);
-}
-
-.bg-stone-600 {
-  background: var(--stone-600);
-}
-
-.bg-stone-900 {
-  background: var(--stone-900);
-}
-
-.bg-brown-800 {
-  background: var(--brown-800);
-}
-
-.bg-rose-800 {
-  background: var(--rose-800);
-}
-
 .bg-rose-50 {
   background: var(--rose-50);
 }
