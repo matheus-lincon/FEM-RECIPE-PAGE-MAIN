@@ -1,0 +1,53 @@
+:root {
+  /* COLORS */
+  --white: hsl(0, 0%, 100%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  /* FONTS */
+  --ff-heading: "Young Serif", sans-serif;
+  --ff-primary: "Outfit", sans-serif;
+
+  --fw-r: 400;
+  --fw-sb: 600;
+  --fw-b: 700;
+
+  --fs-xl: clamp(2.25rem, 2.1786rem + 0.3571vw, 2.5rem);
+  /* 36px → 40px */
+  --fs-md: 1.75rem;
+  /* 28px */
+  --fs-sm: 1.25rem;
+  /* 20px */
+  --fs-xs: 1rem;
+  /* 16px */
+
+  /* SPACING*/
+  --spacing-sm: 2rem;
+  /* 32px */
+  --spacing-md: 2.5rem;
+  /* 40px */
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400 600 700;
+}
