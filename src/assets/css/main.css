@@ -44,6 +44,12 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 @font-face {
   font-family: "Young Serif";
   src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
