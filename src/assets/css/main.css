@@ -30,6 +30,8 @@
   /* 16px */
 
   /* SPACING*/
+  --spacing-xs: 1.5rem;
+  /* 24px */
   --spacing-sm: 2rem;
   /* 32px */
   --spacing-md: 2.5rem;
