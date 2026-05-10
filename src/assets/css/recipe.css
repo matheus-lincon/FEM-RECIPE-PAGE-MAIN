@@ -24,10 +24,15 @@ ol li::marker {
   margin-inline: auto;
   max-width: 46.125rem;
   /* 738 */
+  border-radius: var(--border-radius);
 }
 
 .recipe__img {
   margin-block-end: var(--spacing-md);
+}
+
+.recipe__img img {
+  border-radius: var(--border-radius);
 }
 
 @media screen and (min-width: 48rem) {
