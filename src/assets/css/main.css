@@ -40,6 +40,8 @@
   /* 32px -> 40px */
   --fluid-0-120: clamp(0rem, -8.5714rem + 17.8571vw, 7.5rem);
   /* 0rem -> 120px */
+
+  --border-radius: 1rem;
 }
 
 *,
