@@ -1,4 +1,3 @@
-ul,
 ol {
   margin-inline-start: 20px;
   line-height: 1.5;
@@ -9,8 +8,7 @@ ol li:not(:last-child) {
   margin-block-end: 1rem;
 }
 
-ol li,
-ul li {
+ol li {
   padding-inline-start: 1rem;
 }
 
