@@ -41,10 +41,6 @@ ol li::marker {
   display: grid;
 }
 
-.recipe__desc {
-  margin-block-end: var(--spacing-sm);
-}
-
 .nutrition__table {
   border-collapse: collapse;
   margin-block-end: var(--spacing-sm);
