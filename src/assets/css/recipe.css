@@ -30,10 +30,17 @@ ol li::marker {
   margin-block-end: var(--spacing-md);
 }
 
+@media screen and (min-width: 48rem) {
+  .recipe__img {
+    padding: var(--spacing-sm-md);
+    margin-block-end: initial;
+  }
+}
+
 .recipe__content {
   display: grid;
   gap: var(--spacing-sm);
-  padding-inline: var(--spacing-sm);
+  padding-inline: var(--spacing-sm-md);
 }
 
 .recipe__time {
