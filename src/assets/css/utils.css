@@ -12,6 +12,13 @@
   border-width: 0;
 }
 
+/* GRID UTILS */
+.grid-gap-sm {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+
 /* =========================
    COLOR UTILITIES
 ========================= */
