@@ -38,14 +38,6 @@ ol li::marker {
   padding: var(--spacing-sm);
 }
 
-.time__heading {
-  margin-block-end: var(--spacing-xs);
-}
-
-.recipe__nutrition {
-  display: grid;
-}
-
 .nutrition__table {
   border-collapse: collapse;
   margin-block-end: var(--spacing-sm);
