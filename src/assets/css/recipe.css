@@ -29,11 +29,6 @@ ol li::marker {
   padding-inline: var(--spacing-sm);
 }
 
-.recipe__content>div {
-  display: grid;
-  gap: var(--spacing-sm);
-}
-
 .recipe__time {
   padding: var(--spacing-sm);
 }
