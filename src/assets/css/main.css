@@ -36,6 +36,8 @@
   /* 32px */
   --spacing-md: 2.5rem;
   /* 40px */
+  --spacing-sm-md: clamp(var(--spacing-sm), 1.8239rem + 0.7512vw, var(--spacing-md));
+  /* 32px -> 40px */
 }
 
 *,
