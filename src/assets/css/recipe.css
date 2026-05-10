@@ -31,6 +31,10 @@ ol li::marker {
 }
 
 @media screen and (min-width: 48rem) {
+  .recipe {
+    margin-block: var(--fluid-0-120);
+  }
+
   .recipe__img {
     padding: var(--spacing-sm-md);
     margin-block-end: initial;
