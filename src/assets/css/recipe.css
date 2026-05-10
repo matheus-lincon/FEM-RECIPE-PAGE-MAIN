@@ -17,6 +17,24 @@ ol li::marker {
   color: var(--brown-800);
 }
 
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+ul li::before {
+  margin-inline-start: 1rem;
+  content: "•";
+  color: var(--text-brown-800);
+  font-size: var(--fs-md);
+  display: inline-block;
+  margin-inline-end: 28px;
+}
+
 .recipe__container {
   width: 100%;
   margin-inline: auto;
