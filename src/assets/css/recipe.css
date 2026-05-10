@@ -19,6 +19,13 @@ ol li::marker {
   color: var(--brown-800);
 }
 
+.recipe__container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 46.125rem;
+  /* 738 */
+}
+
 .recipe__img {
   margin-block-end: var(--spacing-md);
 }
