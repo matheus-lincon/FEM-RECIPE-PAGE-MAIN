@@ -46,6 +46,7 @@
   /* 0rem -> 120px */
 
   --border-radius: 1rem;
+  --border: 1px solid var(--stone-150);
 }
 
 *,
