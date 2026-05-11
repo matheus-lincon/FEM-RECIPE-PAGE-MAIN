@@ -3,7 +3,6 @@ ol {
   line-height: 1.5;
 }
 
-ul li:not(:last-child),
 ol li:not(:last-child) {
   margin-block-end: var(--spacing-2xs);
 }
@@ -71,7 +70,8 @@ ul li::before {
 }
 
 .recipe__time {
-  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-sm);
 }
 
 .recipe__ingredients {
