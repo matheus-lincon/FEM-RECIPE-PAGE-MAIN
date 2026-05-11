@@ -1,15 +1,15 @@
 ol {
-  margin-inline-start: 20px;
+  margin-inline-start: var(--spacing-md);
   line-height: 1.5;
 }
 
 ul li:not(:last-child),
 ol li:not(:last-child) {
-  margin-block-end: 1rem;
+  margin-block-end: var(--spacing-2xs);
 }
 
 ol li {
-  padding-inline-start: 1rem;
+  padding-inline-start: var(--spacing-2xs);
 }
 
 ol li::marker {
@@ -18,21 +18,18 @@ ol li::marker {
 }
 
 ul li {
-  margin: 0;
-  padding: 0;
   list-style: none;
-
   display: flex;
   align-items: center;
 }
 
 ul li::before {
-  margin-inline-start: 1rem;
+  display: block;
   content: "•";
   color: var(--text-brown-800);
   font-size: var(--fs-md);
-  display: inline-block;
-  margin-inline-end: 28px;
+  margin-inline-end: var(--spacing-sm);
+  margin-inline-start: var(--spacing-2xs);
 }
 
 .recipe__container {
@@ -44,11 +41,7 @@ ul li::before {
 }
 
 .recipe__img {
-  margin-block-end: var(--spacing-md);
-}
-
-.recipe__img img {
-  border-radius: var(--border-radius);
+  margin-block-end: var(--spacing-lg);
 }
 
 @media screen and (min-width: 48rem) {
@@ -57,24 +50,28 @@ ul li::before {
   }
 
   .recipe__img {
-    padding: var(--spacing-sm-md);
+    padding: var(--spacing-md-lg);
     margin-block-end: initial;
+  }
+
+  .recipe__img img {
+    border-radius: var(--border-radius);
   }
 }
 
 .recipe__content {
   display: grid;
-  gap: var(--spacing-sm);
-  padding-inline: var(--spacing-sm-md);
+  gap: var(--spacing-md);
+  padding-inline: var(--spacing-md-lg);
 }
 
 .recipe__time {
-  padding: var(--spacing-sm);
+  padding: var(--spacing-md);
 }
 
 .nutrition__table {
   border-collapse: collapse;
-  margin-block-end: var(--spacing-sm);
+  margin-block-end: var(--spacing-md);
 }
 
 .nutrition__table tr:not(:last-child) {
@@ -82,11 +79,11 @@ ul li::before {
 }
 
 .nutrition__table th {
-  padding-block: 1rem;
-  padding-inline-start: var(--spacing-sm);
+  padding-block: var(--spacing-2xs);
+  padding-inline-start: var(--spacing-md);
   text-align: start;
 }
 
 .nutrition__table td {
-  padding-inline-end: var(--spacing-sm);
+  padding-inline-end: var(--spacing-md);
 }
