@@ -75,11 +75,11 @@ ul li::before {
 }
 
 .recipe__ingredients {
-  border-bottom: 1px solid var(--stone-150);
+  border-bottom: var(--border);
 }
 
 .recipe__instructions {
-  border-bottom: 1px solid var(--stone-150);
+  border-bottom: var(--border);
 }
 
 .nutrition__table {
@@ -88,7 +88,7 @@ ul li::before {
 }
 
 .nutrition__table tr:not(:last-child) {
-  border-bottom: 1px solid var(--stone-150);
+  border-bottom: var(--border);
 }
 
 .nutrition__table th {
