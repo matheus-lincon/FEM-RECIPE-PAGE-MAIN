@@ -17,8 +17,8 @@ ol li::marker {
   color: var(--brown-800);
 }
 
-ul,
-ol {
+.instructions__list,
+.ingredients__list {
   margin-block-end: var(--spacing-md);
 }
 
