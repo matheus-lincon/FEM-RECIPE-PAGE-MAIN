@@ -17,6 +17,11 @@ ol li::marker {
   color: var(--brown-800);
 }
 
+ul,
+ol {
+  margin-block-end: var(--spacing-md);
+}
+
 ul li {
   list-style: none;
   display: flex;
@@ -67,6 +72,14 @@ ul li::before {
 
 .recipe__time {
   padding: var(--spacing-md);
+}
+
+.recipe__ingredients {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.recipe__instructions {
+  border-bottom: 1px solid var(--stone-150);
 }
 
 .nutrition__table {
