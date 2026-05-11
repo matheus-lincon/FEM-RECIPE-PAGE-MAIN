@@ -31,7 +31,7 @@ ul li::before {
   display: block;
   content: "•";
   color: var(--text-brown-800);
-  font-size: var(--fs-md);
+  font-size: var(--fs-sm);
   margin-inline-end: var(--spacing-sm);
   margin-inline-start: var(--spacing-2xs);
 }
