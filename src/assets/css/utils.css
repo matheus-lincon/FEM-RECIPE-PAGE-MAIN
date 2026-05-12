@@ -15,7 +15,7 @@
 /* GRID UTILS */
 .grid-gap-sm {
   display: grid;
-  gap: var(--spacing-sm);
+  gap: var(--spacing-2xs);
 }
 
 
